@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -31,7 +39,7 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque fuga accusantium, sapiente aspernatur necessitatibus dolorum deleniti, doloribus veritatis cupiditate quo mollitia, libero modi error explicabo adipisci! Iure delectus dolore officia? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt pariatur, officiis nesciunt magnam repudiandae laborum obcaecati dolorem dignissimos dicta, esse assumenda quos perspiciatis. Consequatur necessitatibus quos voluptatem rerum illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, earum numquam. Rem, consequatur cupiditate facilis voluptatum placeat reprehenderit, exercitationem sequi quasi neque corrupti, adipisci officia possimus ducimus deserunt libero tempora.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque fuga accusantium, sapiente aspernatur necessitatibus dolorum deleniti, doloribus veritatis cupiditate quo mollitia, libero modi error explicabo adipisci! Iure delectus dolore officia? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt pariatur, officiis nesciunt magnam repudiandae laborum obcaecati dolorem dignissimos dicta, esse assumenda quos perspiciatis. Consequatur necessitatibus quos voluptatem rerum illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, earum numquam. Rem, consequatur cupiditate facilis voluptatum placeat reprehenderit, exercitationem sequi quasi neque corrupti, adipisci officia possimus ducimus deserunt libero tempora.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque fuga accusantium, sapiente aspernatur necessitatibus dolorum deleniti, doloribus veritatis cupiditate quo mollitia, libero modi error explicabo adipisci! Iure delectus dolore officia? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt pariatur, officiis nesciunt magnam repudiandae laborum obcaecati dolorem dignissimos dicta, esse assumenda quos perspiciatis. Consequatur necessitatibus quos voluptatem rerum illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, earum numquam. Rem, consequatur cupiditate facilis voluptatum placeat reprehenderit, exercitationem sequi quasi neque corrupti, adipisci officia possimus ducimus deserunt libero tempora.</p>
-        
+
     </main>
 </body>
 </html>
